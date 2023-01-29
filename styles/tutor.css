@@ -1,0 +1,32 @@
+body{
+	display:grid;
+	overflow:none;
+}
+#two_2{
+	border:2px solid blue;
+	display:flex;
+}
+.row_1{
+	height:33vh;
+}
+.col_1{
+	width:33vw;
+}
+.col_2{
+	width:33vw;
+}
+.row_3{
+	width:505px;
+	height:33vh
+}
+#tutor_box{
+	border-right:5px solid black;
+	display:inline;
+	padding:0;
+	margin:0;
+}
+#learner_box{
+	display: inline;
+	padding:0;
+	margin:0;
+}
