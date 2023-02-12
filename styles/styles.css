@@ -1,0 +1,56 @@
+h1{
+	color:gray;
+}
+
+
+#pixel{
+	font-size:1px;
+}
+body{
+	text-align:center;
+	background-image:url('http://127.0.0.1/Tutorment/assets/black-hexagon-hi.png');
+	background-repeat: repeat;
+	}
+#name{
+	color:gray;
+}
+#dog{
+	left:50%;
+}
+#shark{ left:50%;}
+.cats{
+	display:inline-flex;
+}
+.dogs{
+	display:inline-flex;
+}
+.roos{
+	display:inline-flex;
+}
+.sharks{
+	display:inline-flex;
+}
+.hedgehogs{
+	display: inline-flex;
+}
+.facts{
+	font-size:2.0em;
+	max-width:50%;
+	display:none;
+}
+.pictures{
+	height:300px;
+	margin:0;
+	padding:0;
+	display: inline;
+}
+.pictures:hover{
+	filter: blur(3px);
+	filter:contrast(50%);
+}
+#sonic{
+	height:500px;
+}
+#hedgehog{
+	left:50%;
+}

@@ -1,0 +1,42 @@
+body{
+	display:flex;
+	overflow:none;
+	min-height: 100vh;
+	flex-direction: column;
+}
+#two_2{
+	border:2px solid blue;
+	display:flex;
+	width:705px;
+	margin:auto;
+
+}
+.row_1{
+	height:33vh;
+}
+.col_1{
+	width:33vw;
+}
+.col_2{
+	width:33vw;
+}
+.row_3{
+	width:505px;
+	height:33vh
+}
+#tutor_box{
+	border-right:5px solid black;
+	display:inline-block;
+	padding:0;
+	margin:0;
+}
+#learner_box{
+	display: inline-block;
+	padding:0;
+	margin:0;
+}
+h1{
+	font-family:"Copperplate Gothic Light";
+	text-align:center;
+	font-size: 5em;
+}
