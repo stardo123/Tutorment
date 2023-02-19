@@ -1,5 +1,9 @@
 h1{
-	color:gray;
+	color:lightyellow;
+}
+
+h2{ 
+	color: lightyellow;
 }
 
 
@@ -8,12 +12,10 @@ h1{
 }
 body{
 	text-align:center;
-	background-image:url('http://127.0.0.1/Tutorment/assets/black-hexagon-hi.png');
-	background-repeat: repeat;
+	/*background-image:url("../assets/assets.jfif");
+	background-repeat:repeat;*/
+	background:linear-gradient(315deg,grey, white,black);
 	}
-#name{
-	color:gray;
-}
 #dog{
 	left:50%;
 }
@@ -53,4 +55,18 @@ body{
 }
 #hedgehog{
 	left:50%;
+}
+
+li{
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: black;
+	color: white;
 }
