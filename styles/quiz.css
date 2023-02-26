@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items:center;
+}
+#login_box{
+    background-color: white;
+    height: 70vh;
+    width:50%;
+    margin:auto;
+    /* flex-direction: column; */
+}
