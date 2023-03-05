@@ -7,8 +7,21 @@ body{
 }
 #login_box{
     background-color: white;
-    height: 70vh;
-    width:50%;
-    margin:auto;
-    /* flex-direction: column; */
+    height: 69vh;
+    size: 40px;
+    width: 40vw;
+    border-radius: 10px;
+}
+input{
+    display: block;
+}
+.text{
+    width: 50%;
+    margin: auto;
+}
+#remember{
+    display: inline-block;
+}
+.g_id_signin{
+    width: 200px;
 }

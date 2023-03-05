@@ -5,3 +5,7 @@ body{
     flex-wrap:wrap;
     align-items:center;
 }
+
+#h1{
+    size: 40px;
+}
