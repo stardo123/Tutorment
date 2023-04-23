@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="src/registration.js"></script>
+    <link rel="stylesheet" href="styles/registration.css"/>
+</head>
+<body>
+    <div id="signup_box">
+        <img src="assets/tutorment logo.png" alt="logo" id="tutorment_logo" />
+        <form id="signup">
+            <input id="username" class="text" type="text" placeholder="username" label="username" autocomplete="username"/>
+            <input id="password" class="text" type="password" placeholder="password" label="password" autocomplete="current-password"/>
+            <input id="confirm-password" class="text" type="password" placeholder="confirm password" label="confirm password" autocomplete="new-password"/>
+            <input id="email" class="text" type="email" placeholder="Email address" label="email" autocomplete="email"/>
+            <input id="confirm-email" class="text" type="email" placeholder="confirm email" label="confirm email" autocomplete="new-email"/>
+            <div id="actions">
+                <!--<input id="btnTeacher" class="button" type="radio" name="Teacher" value="Teacher"/>
+                <label for="btnTeacher">Teacher</label>
+                <input id="btnStudent" class="button" type="radio" name="Student" value="Student" />
+                <label for="btnStudent">Student</label>
+                <input id="submit" type="submit" placeholder="Log In"/>-->
+                <label>
+                    Teacher
+                    <input type="radio" id="btnTeacher" name="Teacher" value="Teacher"/>
+                </label>
+                <label>
+                    Student
+                    <input type="radio" id="btnStudent" name="Student" value="Student"/>
+                </label>
+                <input id="submit" type="submit" placeholder="Sign Up"/>
+                
+            </div>
+        </form>
+</body>
+<foot></foot>

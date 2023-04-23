@@ -1,15 +1,16 @@
 body{
-    background-color: gray;
+    background-color: white;
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
     align-items:center;
 }
 #login_box{
-    background-color: white;
+    background-color: whitesmoke;
     height: 69vh;
     size: 40px;
-    width: 40vw;
+    width: 30vw;
+    border: 1px solid black;
     border-radius: 10px;
 }
 input{
@@ -23,5 +24,11 @@ input{
     display: inline-block;
 }
 .g_id_signin{
-    width: 200px;
+    
+width: 200px;
+}
+#tutorment_logo{
+    display:block;
+    margin:auto;
+    width:100px;
 }

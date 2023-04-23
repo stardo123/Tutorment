@@ -1,9 +1,9 @@
 h1{
-	color:lightyellow;
+	color:black;
 }
 
 h2{ 
-	color: lightyellow;
+	color: black;
 }
 
 
@@ -14,12 +14,13 @@ body{
 	text-align:center;
 	/*background-image:url("../assets/assets.jfif");
 	background-repeat:repeat;*/
-	background:linear-gradient(315deg,grey, white,black);
-	}
+	background: white;
+}
 #dog{
 	left:50%;
 }
 #shark{ left:50%;}
+
 .cats{
 	display:inline-flex;
 }
@@ -35,10 +36,20 @@ body{
 .hedgehogs{
 	display: inline-flex;
 }
+.cheetahs{
+	display: inline-flex;
+}
+.peacocks{
+	display: inline-flex;
+}
+.elephents{
+	display: inline-flex
+}
+
 .facts{
 	font-size:2.0em;
 	max-width:50%;
-	display:none;
+	display: none;
 }
 .pictures{
 	height:300px;
@@ -51,7 +62,7 @@ body{
 	filter:contrast(50%);
 }
 #sonic{
-	height:500px;
+	height:300px;
 }
 #hedgehog{
 	left:50%;
@@ -59,6 +70,11 @@ body{
 
 li{
 	color: black;
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	size: 8px;
 }
 
 a{

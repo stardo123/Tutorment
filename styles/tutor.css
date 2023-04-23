@@ -7,7 +7,7 @@ body{
 #two_2{
 	border:2px solid blue;
 	display:flex;
-	width:705px;
+	width:702px;
 	margin:auto;
 
 }
@@ -21,19 +21,28 @@ body{
 	width:33vw;
 }
 .row_3{
-	width:505px;
+	width: 505px;
 	height:33vh
 }
 #tutor_box{
-	border-right:5px solid black;
+	border-right:2px solid blue;
 	display:inline-block;
 	padding:0;
 	margin:0;
 }
+#tutor_box:hover{
+	filter: blur(3px);
+	filter:contrast(50%);
+}
+
 #learner_box{
 	display: inline-block;
 	padding:0;
 	margin:0;
+}
+#learner_box:hover{
+	filter: blur(3px);
+	filter:contrast(50%);
 }
 h1{
 	font-family:"Copperplate Gothic Light";

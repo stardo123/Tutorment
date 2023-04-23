@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="styles/quizInput.css"/>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
     <h1>
        log-in
     </h1>
+    <div id="login_box">
+        <img src="assets/tutorment logo.png" alt="logo" id="tutorment_logo" />
+        <form id="login">
+            <input id="username" class="text" type="text" placeholder="username" label="username" autocomplete="username"/>
+            <input id="password" class="text" type="password" placeholder="password" label="password" autocomplete="current-password"/>
+            <input id="remember" type="checkbox" placeholder="remember" name="remember"/>
+            <label for="remember">Remember me</label>
+            <input id="submit" type="submit" placeholder="Log In"/>
+        </form>
+        <a href="registration.html">Click here to register!</a>
+        <div id="g_id_onload"
+            data-client_id="110710507095-mmhvd05u8qqutpi7k27mei03fjljhq3l.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-callback="login()"
+            data-auto_select="true"
+            data-itp_support="true">
+        </div>
+
+        <div class="g_id_signin"
+            data-type="standard"
+            data-shape="pill"
+            data-theme="outline"
+            data-text="signin_with"
+            data-size="medium"
+            data-logo_alignment="left"
+            data-width="60px">
+        </div>
+    </div>
 </body>
 <footer></footer>
